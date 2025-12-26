@@ -7,11 +7,12 @@ import Header from "./Component/Header";
 import Section from "./Component/Section";
 import Secoundsection from "./Component/Secoundsection";
 import ThirdSec from "./Component/ThirdSec";
-import Spline from "@splinetool/react-spline";
 import Fourthsection from "./Component/Fourthsection";
 import FifthSection from "./Component/FifthSection";
 import Sixthsec from "./Component/Sixthsec";
 import Footer from "./Component/Footer";
+import Form from "./Component/Form"
+import Mark from "./Component/Mark";
 
 
 const App = () => {
@@ -30,7 +31,9 @@ const App = () => {
       <ThirdSec/>
       <Fourthsection/>
       <FifthSection/>
+      <Form/>
       <Sixthsec/>
+      <Mark/>
       <Footer/>
     </BrowserRouter>
   );
